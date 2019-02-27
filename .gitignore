@@ -22,11 +22,6 @@
 /target
 /.factorypath
 /.settings
-/kaka-parent/kaka-api/target
-/kaka-parent/kaka-common/target
-/kaka-parent/kaka-web/target
-/kaka-parent/luoran_web
-/kaka-parent/.idea
 rebel-remote.xml
 /.settings
 /.idea
