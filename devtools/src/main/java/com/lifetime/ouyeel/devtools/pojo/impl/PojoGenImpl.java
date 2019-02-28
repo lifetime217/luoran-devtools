@@ -72,7 +72,7 @@ public class PojoGenImpl implements IPojoGen {
 
 	private String genAction(String projectDir, String pkg, String entityName) throws Exception {
 		String iserviceString = genTemplate("action.tpl", pkg, entityName);
-		String file = projectDir + "/action/" + entityName + "Action.java";
+		String file = projectDir + "/action/api/" + entityName + "Action.java";
 		String msg = genFile(file, iserviceString);
 		return msg;
 	}
