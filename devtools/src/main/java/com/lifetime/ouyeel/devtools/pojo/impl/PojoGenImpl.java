@@ -109,7 +109,7 @@ public class PojoGenImpl implements IPojoGen {
 		
 		sb.append("import org.beetl.sql.core.annotatoin.AssignID;\n");
 		sb.append("import org.beetl.sql.core.annotatoin.AutoID;\n");
-		sb.append("import com.mks.energy.entity.BaseInfo;\n\n");
+		sb.append("import com.luoran.zzbird.core.BaseInfo;\n\n");
 
 		sb.append(genTableRemark(tinfo.getRemark()));
 		sb.append("\npublic class ");
